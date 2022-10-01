@@ -49,7 +49,7 @@ function App() {
         <Header />
         <Routes>
           <Route
-            exact path="/"
+            exact path="/Todos_List"
             element={
               <>
                 <Addtodo addtodo={addtodo} />
